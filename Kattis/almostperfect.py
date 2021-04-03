@@ -14,7 +14,7 @@
 # Ici on utilise un set pour éviter d'avoir des doublons. 
 # Par exemple pour n=10, on ajoutera 2 et 10/2 donc 5 dans le set. Cela permet d'itérer seulement jusqu'à la racine (similaire aux méthodes
 # vues en cours avec les nombres premiers)
-# Lorsqu'on connait les diviseurs de n, on calcule juste la somme et on la comparer à n. En fonction de la comparaison, 
+# Lorsqu'on connait les diviseurs de n, on calcule juste la somme et on la compare à n. En fonction de la comparaison, 
 # on print perfect si la somme des diviseurs = n, almost perfect si la somme diffère de maximum 2 par rapport à n et not perfect sinon.
 
 

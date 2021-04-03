@@ -1,7 +1,7 @@
 # Problème: Ones - Difficulté 4.3
 
 # Description: On nous donne un nombre n entre 1 et 100 000, on sait qu'un multiple de ce nombre est égal à une séquence de 1
-# et on veut savoir le nombre minimal de 1 pour écrire ce mulitple de n.
+# et on veut savoir le nombre minimal de 1 pour écrire ce multiple de n.
 # Par exemple avec 3, le plus petit mulitple de 3 qui est une séquence de 1 vaut 111 de longueur 3 donc on doit afficher 3.  
 
 # Subtilités: La solution naïve ne fonctionne forcément pas avec des entrées qui peuvent atteindre 100 000.
