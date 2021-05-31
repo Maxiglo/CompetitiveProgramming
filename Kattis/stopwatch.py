@@ -1,6 +1,7 @@
 n=int(input())
 if n %2!=0:
     print('still running')
+    exit()
 l=[]
 for _ in range(n):
     l.append(int(input()))
