@@ -3,6 +3,7 @@ l=[]
 for i in range(20):
     l.append(input())
 
+
 c=0
 for ligne in l:
     if ligne.count('#')==9:
