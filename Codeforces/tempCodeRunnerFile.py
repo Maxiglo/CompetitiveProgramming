@@ -1,10 +1,16 @@
+import sys
+input=sys.stdin.readline
+from itertools import combinations
+
 n=int(input())
 
-for _ in range(n):
-    taille=int(input())
-    l=[int(i) for i in input().split()]
-    if sum(l)%taille!=0:
-        print(-1)
-    else:
-        m=sum(l)/len(l)
-        print(sum(map(lambda x:x>m,l)))
+def main():
+    for _ in range(n):
+        c=0
+        n,l,r=map(int,input().split())
+        a=[int(i) for i in input().split()]
+        for subset in combinations(a, 2):
+            if l<=sum(subset)<=r:
+                c+=1    
+        print(c)
+main()
