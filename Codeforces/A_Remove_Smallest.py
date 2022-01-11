@@ -13,3 +13,6 @@ for _ in range(int(input())):
             break
     if not ok:
         print('YES')
+
+
+
