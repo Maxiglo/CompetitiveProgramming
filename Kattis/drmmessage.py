@@ -18,3 +18,5 @@ rep=''
 for c in range(len(newA)):
     rep+=alph[(alph.index(newA[c])+alph.index(newB[c]))%26]
 print(rep.upper())
+
+
