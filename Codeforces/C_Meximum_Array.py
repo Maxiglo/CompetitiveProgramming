@@ -1,4 +1,6 @@
 # on sait que 1 2 3 4 5 = (5*6)/2
+# not working 
+# corriger upsolver le problème c 
 def mex(arr):
     arr = set(arr)
     mex = 0
