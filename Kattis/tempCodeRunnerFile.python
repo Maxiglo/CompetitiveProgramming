@@ -1,2 +1,0 @@
-n=input();m=input();print(''.join([str(int(n[c]) and int(m[c])) for c in range(len(n))]))
-
