@@ -9,4 +9,3 @@ for i in range(b):
     for j in range(a):
         rep.append(l[j][i])
     print(*rep)
-
