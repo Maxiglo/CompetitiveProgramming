@@ -1,12 +1,21 @@
 def solve(l):
     if len(l) == 1:
         return True
-    p = [int(i) for i in l if i%2==0]
-    imp = [int(i) for i in l if i%2 != 0]
+    pairs = -1
+    impairs = -1
 
-    if p == sorted(p) and imp == sorted(imp):
-        return True 
-    return False
+    for elem in l:
+        if elem%2==0:
+            if elem < pairs:
+                return False
+            else:
+                pairs = elem
+        else:
+            if elem < impairs:
+                return False
+            else:
+                impairs = elem
+    return True
 
 for _ in range(int(input())):
     x = int(input())
